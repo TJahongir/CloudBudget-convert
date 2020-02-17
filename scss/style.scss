@@ -116,6 +116,25 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 15%;
+
+    .lang {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    select {
+      background: none;
+      border: none;
+      color: #fff;
+      margin-right: 1rem;
+      margin-left: 0.5rem;
+      outline: none;
+    }
+
+    option {
+      color: #000;
+    }
   }
 }
 
@@ -244,7 +263,7 @@ footer {
   }
 
   &__content {
-    width: 450px;
+    max-width: 450px;
 
     h2 {
       text-align: left;
@@ -420,3 +439,5 @@ footer {
     margin-top: 125px;
   }
 }
+
+@import 'mobile';

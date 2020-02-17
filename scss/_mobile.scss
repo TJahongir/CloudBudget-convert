@@ -1,0 +1,117 @@
+@media screen and (max-width: 960px) {
+  .vidSection__wrap,
+  .features__cards,
+  .technology__items,
+  .download__wrap,
+  .contact__wrap,
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  section,
+  footer {
+    padding: 50px 0;
+  }
+  .techItem {
+    width: 100%;
+
+    &__body {
+      margin-top: -20%;
+    }
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .nav .nav__menu,
+  .nav .nav__lang {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+  }
+  // Main
+
+  .hero {
+    &__content {
+      width: 100%;
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .vidSection {
+    &__content {
+      margin-bottom: 4rem;
+    }
+
+    .vidSection__vid {
+      .vidSection__play {
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        img {
+          max-width: 25px;
+        }
+      }
+    }
+  }
+
+  .download {
+    &__info {
+      margin-bottom: 4rem;
+    }
+    &__icons img {
+      max-width: 50px;
+    }
+  }
+
+  .contact {
+    &__info {
+      margin-bottom: 4rem;
+    }
+
+    .form__name {
+      flex-direction: column;
+
+      input:first-child {
+        margin-bottom: 1rem;
+      }
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  .footer {
+    &__wrap {
+      .footer__col {
+        margin-bottom: 2rem;
+        width: 50%;
+
+        .sm-icons {
+          display: flex;
+
+          a:nth-child(2) {
+            padding: 0 0.5rem;
+          }
+
+          a {
+            img {
+              max-width: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
