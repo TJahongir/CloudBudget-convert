@@ -226,11 +226,8 @@ footer {
       rgba(213, 32, 71, 0.8) 0%,
       rgba(238, 61, 27, 0.8) 100%
     ),
-    url(../assets/mainBackground.png);
+    url(../assets/mainBackground.png) center center / cover;
   background-repeat: no-repeat;
-  background-position: center;
-  object-fit: cover;
-  object-position: center;
   color: #fff;
 
   &__content {
